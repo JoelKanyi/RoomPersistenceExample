@@ -37,7 +37,7 @@ class ListAdapter : RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
        return list.size
     }
 
-    class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){}
+    class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     fun setData(userList: List<User>){
         list = userList
