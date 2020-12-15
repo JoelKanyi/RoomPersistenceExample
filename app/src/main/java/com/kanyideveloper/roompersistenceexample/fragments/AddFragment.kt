@@ -29,16 +29,16 @@ class AddFragment : Fragment() {
 
         userViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
 
-        view.findViewById<Button>(R.id.btnAdd).setOnClickListener {
+        view.findViewById<Button>(R.id.btnUpdate).setOnClickListener {
             insertDataToDatabase()
         }
         return view
     }
 
     private fun insertDataToDatabase() {
-        val firstName = fname.text.toString()
-        val lastName = lname.text.toString()
-        val age = age.text
+        val firstName = updateFirstName.text.toString()
+        val lastName = updateLastName.text.toString()
+        val age = updateAge.text
 
         if(inputsCheck(firstName,lastName,age)){
             //Create user object
