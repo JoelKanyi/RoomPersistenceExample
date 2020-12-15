@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.kanyideveloper.roompersistenceexample.ListAdapter
 import com.kanyideveloper.roompersistenceexample.R
-import com.kanyideveloper.roompersistenceexample.data.UserViewModel
+import com.kanyideveloper.roompersistenceexample.viewmodel.UserViewModel
 import kotlinx.android.synthetic.main.fragment_list.view.*
 
 class ListFragment : Fragment() {

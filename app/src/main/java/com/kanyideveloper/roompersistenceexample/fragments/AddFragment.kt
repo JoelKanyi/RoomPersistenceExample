@@ -12,8 +12,8 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.kanyideveloper.roompersistenceexample.R
-import com.kanyideveloper.roompersistenceexample.data.User
-import com.kanyideveloper.roompersistenceexample.data.UserViewModel
+import com.kanyideveloper.roompersistenceexample.model.User
+import com.kanyideveloper.roompersistenceexample.viewmodel.UserViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 
 class AddFragment : Fragment() {

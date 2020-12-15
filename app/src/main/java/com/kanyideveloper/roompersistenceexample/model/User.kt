@@ -1,4 +1,4 @@
-package com.kanyideveloper.roompersistenceexample.data
+package com.kanyideveloper.roompersistenceexample.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

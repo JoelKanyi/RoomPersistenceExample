@@ -1,9 +1,12 @@
-package com.kanyideveloper.roompersistenceexample.data
+package com.kanyideveloper.roompersistenceexample.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
+import com.kanyideveloper.roompersistenceexample.model.User
+import com.kanyideveloper.roompersistenceexample.data.UserDatabase
+import com.kanyideveloper.roompersistenceexample.repository.UserRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

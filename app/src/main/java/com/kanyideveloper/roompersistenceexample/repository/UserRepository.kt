@@ -1,6 +1,8 @@
-package com.kanyideveloper.roompersistenceexample.data
+package com.kanyideveloper.roompersistenceexample.repository
 
 import androidx.lifecycle.LiveData
+import com.kanyideveloper.roompersistenceexample.model.User
+import com.kanyideveloper.roompersistenceexample.data.UserDAO
 
 class UserRepository(private val userDao: UserDAO) {
 
