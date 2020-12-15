@@ -23,6 +23,7 @@ class AddFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
+
         // Inflate the layout for this fragment
         val view: View =  inflater.inflate(R.layout.fragment_add, container, false)
 
@@ -31,7 +32,6 @@ class AddFragment : Fragment() {
         view.findViewById<Button>(R.id.btnAdd).setOnClickListener {
             insertDataToDatabase()
         }
-
         return view
     }
 
@@ -55,7 +55,6 @@ class AddFragment : Fragment() {
         else{
             Toast.makeText(requireContext(),"Please fill out your details",Toast.LENGTH_LONG).show()
         }
-
     }
 
     private fun inputsCheck(fname: String, lname: String, age: Editable) : Boolean {

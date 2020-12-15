@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/userID"
+        app:layout_constraintTop_toTopOf="@+id/userID"
+        tools:text="Joel" />
+
+    <TextView
+        android:id="@+id/lastN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/firstN"
+        app:layout_constraintTop_toTopOf="@+id/firstN"
+        tools:text="Kanyi" />
+
+    <TextView
+        android:id="@+id/ageN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/lastN"
+        app:layout_constraintTop_toTopOf="@+id/lastN"
+        tools:text="21" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
