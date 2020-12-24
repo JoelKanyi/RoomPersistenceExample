@@ -23,33 +23,33 @@ You can:
 
           - kotlin 1.4.20
 
-          SDK version API 30
+          - SDK version API 30
 
-          Build tools 30.0.2
+          - Build tools 30.0.2
 
 **2. Clone this repository:**
 
-    `git clone https://github.com/tamzi/useHoverMultiSIM.git`
+    `git clone https://github.com/JoelKanyi/RoomPersistenceExample.git`
 
-**3. open Project in Android Studio**
+**3. Open Project in Android Studio**
 
 **4. Build Project**
 
-**5. Incase of an eror when building project, update your gradle version, Build Tools download**
+**5. Incase of an error when building project, update your gradle version, Build Tools download**
 
 
 #### Dependencies
 
-    - hover:android-sdk:1.4.1
+    - LiveData
 
-    - androidx
+    - ViewNodel
 
-    - retrofit2
+    - Kotlin Coroutines
 
-    - okhttp 4.3.1
-
-    - room
+    - Navigation Support
+    
+    - Room
 
 ## Contributing
-For any concerns, please open an [issue](https://github.com/tamzi/useHoverMultiSIM/issues), or JUST, [fork the project and send a pull request](https://github.com/tamzi/useHoverMultiSIM/pulls).
+For any concerns, please open an [issue](https://github.com/JoelKanyi/RoomPersistenceExample.git), or JUST, [fork the project and send a pull request](https://github.com/JoelKanyi/RoomPersistenceExample.git).
 
